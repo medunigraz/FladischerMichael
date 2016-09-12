@@ -24,7 +24,6 @@ antigen-bundle screen
 antigen-bundle supervisor
 antigen-bundle svn
 antigen-bundle systemd
-antigen-bundle colored-man
 antigen-bundle pep8
 antigen-bundle bower
 antigen-bundle celery
