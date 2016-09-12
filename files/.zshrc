@@ -6,7 +6,6 @@
 . /usr/share/zsh-antigen/antigen.zsh
 antigen-use oh-my-zsh
 antigen-bundle vi-mode
-#antigen-bundle gpg-agent
 antigen-bundle git
 antigen-bundle git-extras
 antigen-bundle kennethreitz/autoenv
@@ -15,7 +14,6 @@ antigen-bundle debian
 antigen-bundle perl
 antigen-bundle python
 antigen-bundle rsync
-antigen-bundle ssh-agent
 antigen-bundle vundle
 antigen-bundle cp
 antigen-bundle postgres
