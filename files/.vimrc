@@ -20,8 +20,6 @@ Bundle 'mjbrownie/Trac.vim'
 Bundle 'mattn/webapi-vim'
 Bundle 'vim-scripts/YankRing.vim'
 "Bundle 'vim-scripts/bufexplorer.zip'
-Bundle 'vim-airline/vim-airline'
-Bundle 'vim-airline/vim-airline-themes'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'benmills/vimux'
 "Bundle 'myusuf3/numbers.vim'
@@ -440,8 +438,3 @@ let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_dotfiles = 0
 let g:ctrlp_switch_buffer = 0
-
-" airline
-let g:airline_theme="solarized"
-let g:airline_solarized_bg="light"
-"let g:airline_theme="bubblegum"
