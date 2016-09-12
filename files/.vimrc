@@ -6,7 +6,7 @@ call vundle#rc()
 
 " let Vundle manage Vundle
 " required!
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 " Utilities
 Bundle 'tpope/vim-sensible'
