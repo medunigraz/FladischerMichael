@@ -55,7 +55,7 @@ setopt extendedglob
 # Global Aliases
 alias -g E=/etc Lsyslog=/var/log/syslog
 
-. ~/.dotfiles/install.zsh
+~/.dotfiles/install.zsh
 
 unsetopt correctall
 export PATH="$PATH:$HOME/bin"
