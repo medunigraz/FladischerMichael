@@ -1,0 +1,10 @@
+[user]
+  email = michael.fladischer@medunigraz.at
+  name = Michael Fladischer
+[sendemail]
+  smtpserver = smtp.medunigraz.at
+  smtpuser = o_fladiscm
+  confirm = always
+
+[push]
+  default = simple

@@ -1,0 +1,5 @@
+export EDITOR='vim'
+export VISUAL='vim'
+export PAGER='less'
+export LESS='-g -i -M -R -S -w -z-4'
+export DEBIAN_PREVENT_KEYBOARD_CHANGES='yes'
