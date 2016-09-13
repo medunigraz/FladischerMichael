@@ -41,6 +41,9 @@ antigen-apply
 
 autoload zmv
 
+zmodload zsh/terminfo
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
 for keycode in '[' '0'; do
     bindkey "^[${keycode}A" history-substring-search-up
     bindkey "^[${keycode}B" history-substring-search-down
