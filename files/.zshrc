@@ -2,13 +2,15 @@
 # Executes commands at the start of an interactive session.
 #
 
+export AUTOENV_FILE_ENTER=.env
+export AUTOENV_FILE_LEAVE=.unenv
+
 #antigen
 . /usr/share/zsh-antigen/antigen.zsh
 antigen-use oh-my-zsh
 antigen-bundle vi-mode
 antigen-bundle git
 antigen-bundle git-extras
-antigen-bundle kennethreitz/autoenv
 antigen-bundle django
 antigen-bundle debian
 antigen-bundle perl
@@ -37,6 +39,7 @@ antigen-bundle oknowton/zsh-dwim
 antigen-bundle zsh-users/zsh-completions src
 antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-bundle zsh-users/zsh-history-substring-search
+antigen-bundle Tarrasch/zsh-autoenv
 antigen-apply
 
 autoload zmv
