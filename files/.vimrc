@@ -24,7 +24,6 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'benmills/vimux'
 "Bundle 'myusuf3/numbers.vim'
 Bundle 'rking/ag.vim'
-Bundle 'jaxbot/github-issues.vim'
 
 " File Management
 Bundle 'scrooloose/nerdtree'
