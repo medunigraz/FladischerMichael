@@ -8,37 +8,31 @@ export AUTOENV_FILE_LEAVE=.unenv
 #antigen
 . /usr/share/zsh-antigen/antigen.zsh
 antigen-use oh-my-zsh
-antigen-bundle vi-mode
-antigen-bundle git
-antigen-bundle git-extras
-antigen-bundle django
-antigen-bundle debian
-antigen-bundle perl
-antigen-bundle python
-antigen-bundle rsync
-antigen-bundle vundle
-antigen-bundle cp
-antigen-bundle postgres
-antigen-bundle history
-antigen-bundle screen
-antigen-bundle supervisor
-antigen-bundle svn
-antigen-bundle systemd
-antigen-bundle pep8
 antigen-bundle bower
 antigen-bundle celery
 antigen-bundle colorize
-antigen-bundle fabric
-antigen-bundle npm
-antigen-bundle systemadmin
 antigen-bundle common-aliases
+antigen-bundle django
+antigen-bundle fabric
+antigen-bundle git
+antigen-bundle git-extras
+antigen-bundle npm
+antigen-bundle pep8
+antigen-bundle perl
+antigen-bundle postgres
+antigen-bundle python
+antigen-bundle rsync
+antigen-bundle supervisor
+antigen-bundle systemadmin
+antigen-bundle systemd
 antigen-bundle tmux
-#antigen-bundle per-directory-history
-#antigen-bundle history-substring-search
+antigen-bundle vi-mode
+antigen-bundle vundle
 antigen-bundle oknowton/zsh-dwim
-antigen-bundle zsh-users/zsh-completions src
+antigen-bundle zsh-users/zsh-completions
 antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-bundle zsh-users/zsh-history-substring-search
+antigen-bundle zsh-users/zsh-autosuggestions
 antigen-bundle Tarrasch/zsh-autoenv
 antigen-apply
 
