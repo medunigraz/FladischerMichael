@@ -146,7 +146,7 @@ set tm=500
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable "Enable syntax hl
 
-set shell=/usr/bin/zsh
+set shell=/bin/zsh
 
 set background=dark
 set t_Co=256
